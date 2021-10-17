@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+
+body{
+     color: #fff;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+}
+
+.how{
+    background-image: url(../images/background4.jfif);
+    height: 50vh;
+
+}
+
+header{
+    background-image:  url(../images/background\ 2.jfif);
+    height:15vh ;
+    background-size: cover;
+    background-position: center;
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+
+}
+ul li{
+    display: inline-block;
+    
+
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+br{
+    text-overflow: clip;
+}
+ul li a{
+    text-decoration: none;
+    color:blue;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition:0.6s ease ;
+}
+
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active1 a{
+    background-color: rgb(6, 37, 175);
+}
+
+.title{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: black;
+    font-size:30px ;
+    margin-bottom: 50px;
+}
+.step{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40vh;
+    margin: 100px;
+    
+}
+.step1{
+    height: 100px;
+    width: 80vh;
+    margin-bottom: 100px;
+
+    
+}
+
+.step1, .step2, .step3{
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+.step2{
+    height: 100px;
+    width: 80vh;
+
+}
+.step3{
+    height: 100px;
+    width: 80vh;
+
+}
+.step1,.step2,.step3{
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+
+h2{
+    text-align: center;
+    color: #fff;
+}
+.button{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+     border: 1px solid black;
+     padding:10px 30px ;
+     color: white;
+     text-decoration: none;
+     transition:0.6s ease;
+}
+.btn:hover{
+    background-color: rgb(235, 221, 29);
+    color: #000;
